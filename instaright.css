@@ -1,0 +1,8 @@
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    border: 1px solid white;
+    color: white;
+}
