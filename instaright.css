@@ -3,6 +3,108 @@
     flex-direction: column;
     width: 30%;
     height: auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
+}
+.pro-box{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
+
+.pro-pic{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user-name{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 10px;
+    /* border: 1px solid red; */
+}
+.bold-name{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.small-name{
+    font-size: small;
+    color: rgba(191, 191, 191,.3);;
+}
+.linkbtn {
+    margin-left: auto;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
+
+.suggestion{
+    align-items: center;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
+
+.all{
+    margin-top: 15px;
+    height: 50px;
+}
+
+.fo-ter{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.see-all{
+    width: 88%;
+    margin-left: auto;
+    /* border: 1px solid red; */
+}
+.about{
+    width: 88%;
+    height: 50px;
+    margin-left: auto;
+    /* border: 1px solid red; */
+}
+#ab-out li{
+    display: inline;
+    cursor: pointer;
+    color: rgba(191, 191, 191,.3);
+    font-size: small;
+}
+#ab-out li a {
+    color: rgba(191, 191, 191,.3);
+}
+#ab-out li:after{
+    content: "\00b7";
+    letter-spacing: 2px;
+    margin-left: 2px;
+}
+#ab-out li:last-child:after{
+    content: "";
+}
+#version{
+    width: 88%;
+    font-size: small;
+    color: rgba(191, 191, 191,.3);
+    margin-left: auto;
 }

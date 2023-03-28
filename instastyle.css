@@ -72,8 +72,8 @@ body{
     /* border: 1px solid red; */
 }
 .probox{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     padding: 3px;
     /* border: 1px solid red; */
@@ -83,6 +83,8 @@ body{
     height: 100%;
     cursor: pointer;
     border-radius: 50%;
+    padding: 2px;
+    border: 1px solid red;
     
 }
 .username{
@@ -211,4 +213,9 @@ body{
 .bottom{
     
     border-bottom: 1px solid rgba(191, 191, 191,.3);
+}
+.verify{
+    font-size: 15px;
+    color: rgb(35, 133, 247);
+    margin-left: 2px;
 }
